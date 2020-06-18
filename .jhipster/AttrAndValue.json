@@ -1,0 +1,25 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "attrName",
+            "fieldType": "String",
+            "fieldValidateRules": []
+        },
+        {
+            "fieldName": "attrValue",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20200617091930",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "no",
+    "entityTableName": "attr_and_value",
+    "databaseType": "sql",
+    "readOnly": false,
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

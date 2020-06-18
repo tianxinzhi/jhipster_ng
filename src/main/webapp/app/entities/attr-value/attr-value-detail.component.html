@@ -1,0 +1,38 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="attrValue">
+            <h2><span jhiTranslate="demoNgApp.attrValue.detail.title">Attr Value</span> {{ attrValue.id }}</h2>
+
+            <hr>
+
+            <jhi-alert-error></jhi-alert-error>
+
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="demoNgApp.attrValue.attrName">Attr Name</span></dt>
+                <dd>
+                    <span>{{ attrValue.attrName }}</span>
+                </dd>
+                <dt><span jhiTranslate="demoNgApp.attrValue.attrValue">Attr Value</span></dt>
+                <dd>
+                    <span>{{ attrValue.attrValue }}</span>
+                </dd>
+                <dt><span jhiTranslate="demoNgApp.attrValue.remark">Remark</span></dt>
+                <dd>
+                    <span>{{ attrValue.remark }}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/attr-value', attrValue.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

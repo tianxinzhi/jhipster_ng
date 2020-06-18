@@ -1,0 +1,23 @@
+{
+  "demoNgApp": {
+    "attrAndValue": {
+      "home": {
+        "title": "Attr And Values",
+        "createLabel": "创建新 Attr And Value",
+        "createOrEditLabel": "创建或编辑 Attr And Value",
+        "notFound": "No Attr And Values found"
+      },
+      "created": "Attr And Value {{ param }} 创建成功",
+      "updated": "Attr And Value {{ param }} 更新成功",
+      "deleted": "Attr And Value {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Attr And Value {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Attr And Value"
+      },
+      "attrName": "Attr Name",
+      "attrValue": "Attr Value"
+    }
+  }
+}
